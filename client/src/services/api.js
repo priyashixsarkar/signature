@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // Change this to your hosted URL in production
+  baseURL: 'https://signature-s6cy.onrender.com/api', // Change this to your hosted URL in production
 });
 
 // Register API
