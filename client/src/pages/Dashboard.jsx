@@ -116,7 +116,7 @@ export default function Dashboard({ auth, setAuth }) {
                 </div>
 
                 <iframe
-                  src={`http://localhost:5000/uploads/${doc.filename}`}
+                  src={`https://signature-s6cy.onrender.com/uploads/${doc.filename}`}
                   title="PDF Preview"
                   className="w-full h-56 border rounded-md mb-3"
                 />
@@ -124,7 +124,7 @@ export default function Dashboard({ auth, setAuth }) {
                 <div className="flex justify-between items-center">
                   {doc.signed ? (
                     <a
-                      href={`http://localhost:5000/uploads/${doc.filename}`}
+                      href={`https://signature-s6cy.onrender.com/uploads/${doc.filename}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-600 hover:underline text-sm"
